@@ -18,6 +18,12 @@ export const books: LibraryBook[] = [
     "title": "go-strategy-simulator",
     "image": "/go-strategy-simulator.png",
     "url": "https://ex3-neopulse.github.io/go-strategy-simulator/"
+  },
+  {
+    "folderName": "3DBattleChess-Game",
+    "title": "3DBattleChess-Game",
+    "image": "/3DBattleChess-Game.png",
+    "url": "https://ex3-neopulse.github.io/3dbattlechess-game/"
   }
 ];
 // END GENERATED BOOKS

@@ -1,7 +1,11 @@
 # Library Center
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3e8a2af4-ed2e-43c4-8ee4-6537d5594dda/deploy-status)](https://app.netlify.com/projects/library-center/deploys)
+
 Next.js App Router gallery for published websites. Each card displays the
 project screenshot and opens its deployed URL.
+
+Live site: [library-center.netlify.app](https://library-center.netlify.app/)
 
 ## Development
 
@@ -22,8 +26,16 @@ uses the source project folder as the book title, saves screenshots under
 `public/`, and updates each entry with its image path and deployed URL. Keep
 entries between the generated-books markers managed by the script.
 
-## Vercel deployment
+## Netlify deployment
 
-Connect this GitHub repository to Vercel with this directory as the project
-root. Vercel then creates preview deployments for pull requests and deploys
-pushes to the production branch automatically.
+This project is deployed from the GitHub repository
+[`Ex3-NeoPulse/library-center`](https://github.com/Ex3-NeoPulse/library-center)
+through [Netlify](https://app.netlify.com/projects/library-center/deploys).
+Netlify supports this Next.js App Router project with its OpenNext adapter;
+keep the build command as `npm run build` and the base directory at the
+repository root. No manual publish directory or adapter dependency is needed.
+
+After connecting the Git repository, Netlify automatically builds pushes to
+the production branch and creates deploy previews for pull requests. The parent
+`deploy_sites.py` script commits and pushes gallery data and screenshots to
+`main`, which triggers the Netlify deployment.

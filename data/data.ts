@@ -84,6 +84,12 @@ export const books: LibraryBook[] = [
     "title": "ZhugeLiangStoneMazeSimulator",
     "image": "/ZhugeLiangStoneMazeSimulator.png",
     "url": "https://ex3-neopulse.github.io/zhugeliangstonemazesimulator/"
+  },
+  {
+    "folderName": "Startup_Strategy",
+    "title": "Startup_Strategy",
+    "image": "/Startup_Strategy.png",
+    "url": "https://ex3-neopulse.github.io/startup-strategy/"
   }
 ];
 // END GENERATED BOOKS
